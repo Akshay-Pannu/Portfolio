@@ -15,15 +15,20 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #081b29;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
 }
 
 nav {
     display: flex;
+    /* justify-content: space-evenly; */
 }
 
 .nav-bar {
     position: fixed;
     background-color: #081b29;
+    /* background-color: red; */
     display: flex;
     gap: 30vw;
     height: 100%;
@@ -374,23 +379,28 @@ main {
     position: relative;
     flex-direction: column;
     align-items: center;
-    background-color: #112E42;
+    background-color: #081b29;
 }
 
 .ri-user-3-fill{
     font-size: 25px;
 }
 
-.section-2-2 img {
+.section-2-2 {
     border: 2px solid #00abf0;
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
+    background-image: url(./my-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 0px 0px 10px #00abf0;
     border-radius: 50%;
 }
 
+
 @media screen and (max-width: 1330px){
-    .section-2-2 img{
+    .section-2-2 {
         margin-top: 2vh;
     }
  }
@@ -880,7 +890,7 @@ font-size: 25px;
 .section-4 {
     height: 100%;
     width: 100%;
-    background-color: #081b29;
+    background-color: #112E42;
 }
 
 .card-upper img {
@@ -895,7 +905,7 @@ font-size: 25px;
 }
 
 .card {
-    background-color: #081b29;
+    background-color: #112E42;
     max-width: 280px;
     height: 420px;
     display: flex;
@@ -909,7 +919,7 @@ font-size: 25px;
     border-radius: 25px;
     transition: .7s ease;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, #112E42 48%, #081b29 52%);
+    background: linear-gradient(to bottom,#081b29 48%, #112E42 52%);
     background-size: 100% 200%;
     background-position: right;
     transition: .4s;
